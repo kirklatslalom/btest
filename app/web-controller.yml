@@ -12,8 +12,8 @@ spec:
         name: web
     spec:
       containers:
-      - image: gcr.io/pge-sm-sf/myapp
+      - image: gcr.io/pge-sm-sf/hello-node
         name: web
         ports:
-        - containerPort: 3000
+        - containerPort: 8080
           name: http-server
